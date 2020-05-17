@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Quan_Ly_KhoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Chitietnhap">
+    <Key>
+      <PropertyRef Name="maCTN" />
+    </Key>
+    <Property Name="maCTN" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="maPN" Type="char" MaxLength="10" />
+    <Property Name="maHH" Type="char" MaxLength="10" />
+    <Property Name="soLuong" Type="int" />
+    <Property Name="donGia" Type="money" />
+  </EntityType>
+  <EntityType Name="Chitietxuat">
+    <Key>
+      <PropertyRef Name="maCTX" />
+    </Key>
+    <Property Name="maCTX" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="maPX" Type="char" MaxLength="10" />
+    <Property Name="maHH" Type="char" MaxLength="10" />
+    <Property Name="soLuong" Type="int" />
+    <Property Name="donGia" Type="money" />
+  </EntityType>
+  <EntityType Name="HangHoa">
+    <Key>
+      <PropertyRef Name="maHH" />
+    </Key>
+    <Property Name="maHH" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="tenHH" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="maNCC" Type="char" MaxLength="10" />
+    <Property Name="soluong" Type="int" />
+  </EntityType>
+  <EntityType Name="NCC">
+    <Key>
+      <PropertyRef Name="maNCC" />
+    </Key>
+    <Property Name="maNCC" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="tenNCC" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="diaChi" Type="nvarchar" MaxLength="50" />
+    <Property Name="SDT" Type="char" MaxLength="13" Nullable="false" />
+    <Property Name="email" Type="char" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PhieuNhap">
+    <Key>
+      <PropertyRef Name="maPN" />
+    </Key>
+    <Property Name="maPN" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="ngayNhap" Type="date" />
+    <Property Name="tongTien" Type="money" />
+  </EntityType>
+  <EntityType Name="PhieuXuat">
+    <Key>
+      <PropertyRef Name="maPX" />
+    </Key>
+    <Property Name="maPX" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="ngayXuat" Type="date" />
+    <Property Name="tongTien" Type="money" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TaiKhoan">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="char" MaxLength="15" Nullable="false" />
+    <Property Name="pass" Type="char" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Chitietnha__maHH__4222D4EF">
+    <End Role="HangHoa" Type="Self.HangHoa" Multiplicity="0..1" />
+    <End Role="Chitietnhap" Type="Self.Chitietnhap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HangHoa">
+        <PropertyRef Name="maHH" />
+      </Principal>
+      <Dependent Role="Chitietnhap">
+        <PropertyRef Name="maHH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Chitietnha__maPN__4316F928">
+    <End Role="PhieuNhap" Type="Self.PhieuNhap" Multiplicity="0..1" />
+    <End Role="Chitietnhap" Type="Self.Chitietnhap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhieuNhap">
+        <PropertyRef Name="maPN" />
+      </Principal>
+      <Dependent Role="Chitietnhap">
+        <PropertyRef Name="maPN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Chitietxua__maHH__440B1D61">
+    <End Role="HangHoa" Type="Self.HangHoa" Multiplicity="0..1" />
+    <End Role="Chitietxuat" Type="Self.Chitietxuat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HangHoa">
+        <PropertyRef Name="maHH" />
+      </Principal>
+      <Dependent Role="Chitietxuat">
+        <PropertyRef Name="maHH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Chitietxua__maPX__44FF419A">
+    <End Role="PhieuXuat" Type="Self.PhieuXuat" Multiplicity="0..1" />
+    <End Role="Chitietxuat" Type="Self.Chitietxuat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhieuXuat">
+        <PropertyRef Name="maPX" />
+      </Principal>
+      <Dependent Role="Chitietxuat">
+        <PropertyRef Name="maPX" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HangHoa__maNCC__45F365D3">
+    <End Role="NCC" Type="Self.NCC" Multiplicity="0..1" />
+    <End Role="HangHoa" Type="Self.HangHoa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NCC">
+        <PropertyRef Name="maNCC" />
+      </Principal>
+      <Dependent Role="HangHoa">
+        <PropertyRef Name="maNCC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sua_CTN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maCTN" Type="char" Mode="In" />
+    <Parameter Name="maPN" Type="char" Mode="In" />
+    <Parameter Name="maHH" Type="char" Mode="In" />
+    <Parameter Name="soLuong" Type="int" Mode="In" />
+    <Parameter Name="donGia" Type="money" Mode="In" />
+  </Function>
+  <Function Name="sua_CTX" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maCTX" Type="char" Mode="In" />
+    <Parameter Name="maPX" Type="char" Mode="In" />
+    <Parameter Name="maHH" Type="char" Mode="In" />
+    <Parameter Name="soLuong" Type="int" Mode="In" />
+    <Parameter Name="donGia" Type="money" Mode="In" />
+  </Function>
+  <Function Name="sua_HH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maHH" Type="char" Mode="In" />
+    <Parameter Name="tenHH" Type="nvarchar" Mode="In" />
+    <Parameter Name="maNCC" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sua_NCC" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maNCC" Type="char" Mode="In" />
+    <Parameter Name="tenNCC" Type="nvarchar" Mode="In" />
+    <Parameter Name="diaChi" Type="nvarchar" Mode="In" />
+    <Parameter Name="SDT" Type="char" Mode="In" />
+    <Parameter Name="email" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sua_PN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maPN" Type="char" Mode="In" />
+    <Parameter Name="ngayNhap" Type="date" Mode="In" />
+    <Parameter Name="tongTien" Type="money" Mode="In" />
+  </Function>
+  <Function Name="sua_PX" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maPX" Type="char" Mode="In" />
+    <Parameter Name="ngayXuat" Type="date" Mode="In" />
+    <Parameter Name="tongTien" Type="money" Mode="In" />
+  </Function>
+  <Function Name="them_CTN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maCTN" Type="char" Mode="In" />
+    <Parameter Name="maPN" Type="char" Mode="In" />
+    <Parameter Name="maHH" Type="char" Mode="In" />
+    <Parameter Name="soLuong" Type="int" Mode="In" />
+    <Parameter Name="donGia" Type="money" Mode="In" />
+  </Function>
+  <Function Name="them_CTX" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maCTX" Type="char" Mode="In" />
+    <Parameter Name="maPX" Type="char" Mode="In" />
+    <Parameter Name="maHH" Type="char" Mode="In" />
+    <Parameter Name="soLuong" Type="int" Mode="In" />
+    <Parameter Name="donGia" Type="money" Mode="In" />
+  </Function>
+  <Function Name="them_NCC" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maNCC" Type="char" Mode="In" />
+    <Parameter Name="tenNCC" Type="nvarchar" Mode="In" />
+    <Parameter Name="diaChi" Type="nvarchar" Mode="In" />
+    <Parameter Name="SDT" Type="char" Mode="In" />
+    <Parameter Name="email" Type="char" Mode="In" />
+  </Function>
+  <Function Name="them_PN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maPN" Type="char" Mode="In" />
+    <Parameter Name="ngayNhap" Type="date" Mode="In" />
+    <Parameter Name="tongTien" Type="money" Mode="In" />
+  </Function>
+  <Function Name="them_PX" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maPX" Type="char" Mode="In" />
+    <Parameter Name="ngayXuat" Type="date" Mode="In" />
+    <Parameter Name="tongTien" Type="money" Mode="In" />
+  </Function>
+  <Function Name="them_TK" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="acc" Type="char" Mode="In" />
+    <Parameter Name="pass" Type="char" Mode="In" />
+  </Function>
+  <Function Name="thongke_HH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="thongke_Nhap" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="thongke_Xuat" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="timkiem_HH1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maHH" Type="char" Mode="In" />
+  </Function>
+  <Function Name="timkiem_HH2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tenHH" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="xoa_CTN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maCTN" Type="char" Mode="In" />
+  </Function>
+  <Function Name="xoa_CTX" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maCTX" Type="char" Mode="In" />
+  </Function>
+  <Function Name="xoa_HH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maHH" Type="char" Mode="In" />
+  </Function>
+  <Function Name="xoa_NCC" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maNCC" Type="char" Mode="In" />
+  </Function>
+  <Function Name="xoa_PN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maPN" Type="char" Mode="In" />
+  </Function>
+  <Function Name="xoa_PX" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maPX" Type="char" Mode="In" />
+  </Function>
+  <Function Name="xuat_CTN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="xuat_CTX" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="xuat_HH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="xuat_NCC" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="xuat_PN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="xuat_PX" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="Quan_Ly_KhoModelStoreContainer">
+    <EntitySet Name="Chitietnhap" EntityType="Self.Chitietnhap" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Chitietxuat" EntityType="Self.Chitietxuat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HangHoa" EntityType="Self.HangHoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NCC" EntityType="Self.NCC" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PhieuNhap" EntityType="Self.PhieuNhap" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PhieuXuat" EntityType="Self.PhieuXuat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaiKhoan" EntityType="Self.TaiKhoan" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Chitietnha__maHH__4222D4EF" Association="Self.FK__Chitietnha__maHH__4222D4EF">
+      <End Role="HangHoa" EntitySet="HangHoa" />
+      <End Role="Chitietnhap" EntitySet="Chitietnhap" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Chitietnha__maPN__4316F928" Association="Self.FK__Chitietnha__maPN__4316F928">
+      <End Role="PhieuNhap" EntitySet="PhieuNhap" />
+      <End Role="Chitietnhap" EntitySet="Chitietnhap" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Chitietxua__maHH__440B1D61" Association="Self.FK__Chitietxua__maHH__440B1D61">
+      <End Role="HangHoa" EntitySet="HangHoa" />
+      <End Role="Chitietxuat" EntitySet="Chitietxuat" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Chitietxua__maPX__44FF419A" Association="Self.FK__Chitietxua__maPX__44FF419A">
+      <End Role="PhieuXuat" EntitySet="PhieuXuat" />
+      <End Role="Chitietxuat" EntitySet="Chitietxuat" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HangHoa__maNCC__45F365D3" Association="Self.FK__HangHoa__maNCC__45F365D3">
+      <End Role="NCC" EntitySet="NCC" />
+      <End Role="HangHoa" EntitySet="HangHoa" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

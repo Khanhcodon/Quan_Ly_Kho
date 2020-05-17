@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Quan_Ly_KhoModelStoreContainer" CdmEntityContainer="Quan_Ly_KhoEntities">
+    <EntitySetMapping Name="Chitietnhaps">
+      <EntityTypeMapping TypeName="Quan_Ly_KhoModel.Chitietnhap">
+        <MappingFragment StoreEntitySet="Chitietnhap">
+          <ScalarProperty Name="maCTN" ColumnName="maCTN" />
+          <ScalarProperty Name="maPN" ColumnName="maPN" />
+          <ScalarProperty Name="maHH" ColumnName="maHH" />
+          <ScalarProperty Name="soLuong" ColumnName="soLuong" />
+          <ScalarProperty Name="donGia" ColumnName="donGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Chitietxuats">
+      <EntityTypeMapping TypeName="Quan_Ly_KhoModel.Chitietxuat">
+        <MappingFragment StoreEntitySet="Chitietxuat">
+          <ScalarProperty Name="maCTX" ColumnName="maCTX" />
+          <ScalarProperty Name="maPX" ColumnName="maPX" />
+          <ScalarProperty Name="maHH" ColumnName="maHH" />
+          <ScalarProperty Name="soLuong" ColumnName="soLuong" />
+          <ScalarProperty Name="donGia" ColumnName="donGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HangHoas">
+      <EntityTypeMapping TypeName="Quan_Ly_KhoModel.HangHoa">
+        <MappingFragment StoreEntitySet="HangHoa">
+          <ScalarProperty Name="maHH" ColumnName="maHH" />
+          <ScalarProperty Name="tenHH" ColumnName="tenHH" />
+          <ScalarProperty Name="maNCC" ColumnName="maNCC" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NCCs">
+      <EntityTypeMapping TypeName="Quan_Ly_KhoModel.NCC">
+        <MappingFragment StoreEntitySet="NCC">
+          <ScalarProperty Name="maNCC" ColumnName="maNCC" />
+          <ScalarProperty Name="tenNCC" ColumnName="tenNCC" />
+          <ScalarProperty Name="diaChi" ColumnName="diaChi" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhieuNhaps">
+      <EntityTypeMapping TypeName="Quan_Ly_KhoModel.PhieuNhap">
+        <MappingFragment StoreEntitySet="PhieuNhap">
+          <ScalarProperty Name="maPN" ColumnName="maPN" />
+          <ScalarProperty Name="ngayNhap" ColumnName="ngayNhap" />
+          <ScalarProperty Name="tongTien" ColumnName="tongTien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhieuXuats">
+      <EntityTypeMapping TypeName="Quan_Ly_KhoModel.PhieuXuat">
+        <MappingFragment StoreEntitySet="PhieuXuat">
+          <ScalarProperty Name="maPX" ColumnName="maPX" />
+          <ScalarProperty Name="ngayXuat" ColumnName="ngayXuat" />
+          <ScalarProperty Name="tongTien" ColumnName="tongTien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Quan_Ly_KhoModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaiKhoans">
+      <EntityTypeMapping TypeName="Quan_Ly_KhoModel.TaiKhoan">
+        <MappingFragment StoreEntitySet="TaiKhoan">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="Quan_Ly_KhoModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="Quan_Ly_KhoModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="Quan_Ly_KhoModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="Quan_Ly_KhoModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Quan_Ly_KhoModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="Quan_Ly_KhoModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Quan_Ly_KhoModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="Quan_Ly_KhoModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="Quan_Ly_KhoModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="sua_CTN" FunctionName="Quan_Ly_KhoModel.Store.sua_CTN" />
+    <FunctionImportMapping FunctionImportName="sua_CTX" FunctionName="Quan_Ly_KhoModel.Store.sua_CTX" />
+    <FunctionImportMapping FunctionImportName="sua_HH" FunctionName="Quan_Ly_KhoModel.Store.sua_HH" />
+    <FunctionImportMapping FunctionImportName="sua_NCC" FunctionName="Quan_Ly_KhoModel.Store.sua_NCC" />
+    <FunctionImportMapping FunctionImportName="sua_PN" FunctionName="Quan_Ly_KhoModel.Store.sua_PN" />
+    <FunctionImportMapping FunctionImportName="sua_PX" FunctionName="Quan_Ly_KhoModel.Store.sua_PX" />
+    <FunctionImportMapping FunctionImportName="them_CTN" FunctionName="Quan_Ly_KhoModel.Store.them_CTN" />
+    <FunctionImportMapping FunctionImportName="them_CTX" FunctionName="Quan_Ly_KhoModel.Store.them_CTX" />
+    <FunctionImportMapping FunctionImportName="them_NCC" FunctionName="Quan_Ly_KhoModel.Store.them_NCC" />
+    <FunctionImportMapping FunctionImportName="them_PN" FunctionName="Quan_Ly_KhoModel.Store.them_PN" />
+    <FunctionImportMapping FunctionImportName="them_PX" FunctionName="Quan_Ly_KhoModel.Store.them_PX" />
+    <FunctionImportMapping FunctionImportName="them_TK" FunctionName="Quan_Ly_KhoModel.Store.them_TK" />
+    <FunctionImportMapping FunctionImportName="thongke_HH" FunctionName="Quan_Ly_KhoModel.Store.thongke_HH">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Quan_Ly_KhoModel.thongke_HH_Result">
+          <ScalarProperty Name="Mã_Hàng_Hóa" ColumnName="Mã Hàng Hóa" />
+          <ScalarProperty Name="Tên_Hàng_Hóa" ColumnName="Tên Hàng Hóa" />
+          <ScalarProperty Name="Mã_NCC" ColumnName="Mã NCC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="thongke_Nhap" FunctionName="Quan_Ly_KhoModel.Store.thongke_Nhap">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Quan_Ly_KhoModel.thongke_Nhap_Result">
+          <ScalarProperty Name="Mã_Phiếu_Nhập" ColumnName="Mã Phiếu Nhập" />
+          <ScalarProperty Name="Ngày_Nhập" ColumnName="Ngày Nhập" />
+          <ScalarProperty Name="Tổng_Tiền" ColumnName="Tổng Tiền" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="thongke_Xuat" FunctionName="Quan_Ly_KhoModel.Store.thongke_Xuat">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Quan_Ly_KhoModel.thongke_Xuat_Result">
+          <ScalarProperty Name="Mã_Phiếu_Xuất" ColumnName="Mã Phiếu Xuất" />
+          <ScalarProperty Name="Ngày_Nhập" ColumnName="Ngày Nhập" />
+          <ScalarProperty Name="Tổng_Tiền" ColumnName="Tổng Tiền" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="timkiem_HH1" FunctionName="Quan_Ly_KhoModel.Store.timkiem_HH1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Quan_Ly_KhoModel.timkiem_HH1_Result">
+          <ScalarProperty Name="maHH" ColumnName="maHH" />
+          <ScalarProperty Name="tenHH" ColumnName="tenHH" />
+          <ScalarProperty Name="maNCC" ColumnName="maNCC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="timkiem_HH2" FunctionName="Quan_Ly_KhoModel.Store.timkiem_HH2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Quan_Ly_KhoModel.timkiem_HH2_Result">
+          <ScalarProperty Name="maHH" ColumnName="maHH" />
+          <ScalarProperty Name="tenHH" ColumnName="tenHH" />
+          <ScalarProperty Name="maNCC" ColumnName="maNCC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="xoa_CTN" FunctionName="Quan_Ly_KhoModel.Store.xoa_CTN" />
+    <FunctionImportMapping FunctionImportName="xoa_CTX" FunctionName="Quan_Ly_KhoModel.Store.xoa_CTX" />
+    <FunctionImportMapping FunctionImportName="xoa_HH" FunctionName="Quan_Ly_KhoModel.Store.xoa_HH" />
+    <FunctionImportMapping FunctionImportName="xoa_NCC" FunctionName="Quan_Ly_KhoModel.Store.xoa_NCC" />
+    <FunctionImportMapping FunctionImportName="xoa_PN" FunctionName="Quan_Ly_KhoModel.Store.xoa_PN" />
+    <FunctionImportMapping FunctionImportName="xoa_PX" FunctionName="Quan_Ly_KhoModel.Store.xoa_PX" />
+    <FunctionImportMapping FunctionImportName="xuat_CTN" FunctionName="Quan_Ly_KhoModel.Store.xuat_CTN">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Quan_Ly_KhoModel.xuat_CTN_Result">
+          <ScalarProperty Name="Mã_CTN" ColumnName="Mã CTN" />
+          <ScalarProperty Name="Mã_PN" ColumnName="Mã PN" />
+          <ScalarProperty Name="Mã_Hàng_Hóa" ColumnName="Mã Hàng Hóa" />
+          <ScalarProperty Name="Số_Lượng" ColumnName="Số Lượng" />
+          <ScalarProperty Name="Đơn_giá" ColumnName="Đơn giá" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="xuat_CTX" FunctionName="Quan_Ly_KhoModel.Store.xuat_CTX">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Quan_Ly_KhoModel.xuat_CTX_Result">
+          <ScalarProperty Name="Mã_CTX" ColumnName="Mã CTX" />
+          <ScalarProperty Name="Mã_PX" ColumnName="Mã PX" />
+          <ScalarProperty Name="Mã_Hàng_Hóa" ColumnName="Mã Hàng Hóa" />
+          <ScalarProperty Name="Số_Lượng" ColumnName="Số Lượng" />
+          <ScalarProperty Name="Đơn_giá" ColumnName="Đơn giá" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="xuat_HH" FunctionName="Quan_Ly_KhoModel.Store.xuat_HH">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Quan_Ly_KhoModel.xuat_HH_Result">
+          <ScalarProperty Name="Mã_Hàng_Hóa" ColumnName="Mã Hàng Hóa" />
+          <ScalarProperty Name="Tên_Hàng_Hóa" ColumnName="Tên Hàng Hóa" />
+          <ScalarProperty Name="Mã_NCC" ColumnName="Mã NCC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="xuat_NCC" FunctionName="Quan_Ly_KhoModel.Store.xuat_NCC">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Quan_Ly_KhoModel.xuat_NCC_Result">
+          <ScalarProperty Name="Mã_NCC" ColumnName="Mã NCC" />
+          <ScalarProperty Name="Tên_NCC" ColumnName="Tên NCC" />
+          <ScalarProperty Name="Địa_chỉ" ColumnName="Địa chỉ" />
+          <ScalarProperty Name="SĐT" ColumnName="SĐT" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="xuat_PN" FunctionName="Quan_Ly_KhoModel.Store.xuat_PN">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Quan_Ly_KhoModel.xuat_PN_Result">
+          <ScalarProperty Name="Mã_Phiếu_Nhập" ColumnName="Mã Phiếu Nhập" />
+          <ScalarProperty Name="Ngày_Nhập" ColumnName="Ngày Nhập" />
+          <ScalarProperty Name="Tổng_Tiền" ColumnName="Tổng Tiền" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="xuat_PX" FunctionName="Quan_Ly_KhoModel.Store.xuat_PX">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Quan_Ly_KhoModel.xuat_PX_Result">
+          <ScalarProperty Name="Mã_Phiếu_Xuất" ColumnName="Mã Phiếu Xuất" />
+          <ScalarProperty Name="Ngày_Xuất" ColumnName="Ngày Xuất" />
+          <ScalarProperty Name="Tổng_Tiền" ColumnName="Tổng Tiền" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
