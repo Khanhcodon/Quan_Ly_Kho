@@ -14,3 +14,21 @@ C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Q
 C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.exe
 C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.pdb
 C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.DangKy.resources
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\Quan_Ly_Kho.exe.config
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\Quan_Ly_Kho.exe
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\Quan_Ly_Kho.pdb
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.dll
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.SqlServer.dll
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.xml
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.SqlServer.xml
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.DangKy.resources
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.DangNhap.resources
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.FormPhieuNhap.resources
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Properties.Resources.resources
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csproj.GenerateResource.cache
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csproj.CoreCompileInputs.cache
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csproj.CopyComplete
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.exe
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.pdb
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csprojAssemblyReference.cache
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.FormChiTietPhieuNhap.resources
