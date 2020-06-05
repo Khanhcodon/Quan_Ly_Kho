@@ -14,7 +14,8 @@ namespace Quan_Ly_Kho.Model
     
     public partial class TaiKhoan
     {
-        public string id { get; set; }
+        public string account { get; set; }
         public string pass { get; set; }
+        public string email { get; set; }
     }
 }

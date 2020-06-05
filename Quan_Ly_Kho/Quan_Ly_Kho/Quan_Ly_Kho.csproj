@@ -55,23 +55,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller\DangKy.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Controller\DangKy.Designer.cs">
-      <DependentUpon>DangKy.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Controller\DangNhap.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Controller\DangNhap.Designer.cs">
-      <DependentUpon>DangNhap.cs</DependentUpon>
-    </Compile>
     <Compile Include="Controller\FormChiTietPhieuNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Controller\FormChiTietPhieuNhap.Designer.cs">
       <DependentUpon>FormChiTietPhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Controller\FormPhieuNhap.cs">
       <SubType>Form</SubType>
@@ -106,81 +100,62 @@
     <Compile Include="Model\NCC.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\nhap.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Model\PhieuNhap.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\PhieuXuat.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Model\sp_helpdiagramdefinition_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model\sp_helpdiagrams_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model\sysdiagram.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
     <Compile Include="Model\TaiKhoan.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\thongke_HH_Result.cs">
+    <Compile Include="Model\ThongKe.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\thongke_Nhap_Result.cs">
+    <Compile Include="Model\xuat.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\thongke_Xuat_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\FormDangKy.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\timkiem_HH1_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+    <Compile Include="View\FormDangKy.Designer.cs">
+      <DependentUpon>FormDangKy.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\timkiem_HH2_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+    <Compile Include="View\FormDangNhap.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\xuat_CTN_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+    <Compile Include="View\FormDangNhap.Designer.cs">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\xuat_CTX_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+    <Compile Include="View\FormThongKeHH.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\xuat_HH_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+    <Compile Include="View\FormThongKeHH.Designer.cs">
+      <DependentUpon>FormThongKeHH.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\xuat_NCC_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model\xuat_PN_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model\xuat_PX_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Controller\DangKy.resx">
-      <DependentUpon>DangKy.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Controller\DangNhap.resx">
-      <DependentUpon>DangNhap.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Controller\FormChiTietPhieuNhap.resx">
       <DependentUpon>FormChiTietPhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controller\FormPhieuNhap.resx">
       <DependentUpon>FormPhieuNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
+    <EmbeddedResource Include="View\FormDangKy.resx">
+      <DependentUpon>FormDangKy.cs</DependentUpon>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
+    <EmbeddedResource Include="View\FormDangNhap.resx">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormThongKeHH.resx">
+      <DependentUpon>FormThongKeHH.cs</DependentUpon>
+    </EmbeddedResource>
     <EntityDeploy Include="Model\Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model1.Designer.cs</LastGenOutput>
@@ -203,27 +178,20 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
     <Content Include="Model\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Model1.Context.cs</LastGenOutput>
       <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
     </Content>
     <Content Include="Model\Model1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
-    <None Include="Resources\1 Đăng ký.png" />
-    <None Include="Resources\Đăng ký.png" />
-    <None Include="Resources\bt Đăng ký.png" />
-    <None Include="Resources\bt Đăng nhập.png" />
-    <None Include="Resources\Đăng Nhập.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="View\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

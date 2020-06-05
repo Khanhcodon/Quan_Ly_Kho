@@ -14,11 +14,10 @@ namespace Quan_Ly_Kho.Model
     
     public partial class Chitietnhap
     {
-        public string maCTN { get; set; }
         public string maPN { get; set; }
         public string maHH { get; set; }
         public Nullable<int> soLuong { get; set; }
-        public Nullable<decimal> donGia { get; set; }
+        public Nullable<decimal> thanhTien { get; set; }
     
         public virtual HangHoa HangHoa { get; set; }
         public virtual PhieuNhap PhieuNhap { get; set; }

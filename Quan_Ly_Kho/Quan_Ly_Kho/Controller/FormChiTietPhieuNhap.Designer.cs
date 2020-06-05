@@ -113,7 +113,7 @@
             this.listViewCtpn.TabIndex = 0;
             this.listViewCtpn.UseCompatibleStateImageBehavior = false;
             this.listViewCtpn.View = System.Windows.Forms.View.Details;
-            this.listViewCtpn.SelectedIndexChanged += new System.EventHandler(this.listViewCtpn_SelectedIndexChanged);
+           // this.listViewCtpn.SelectedIndexChanged += new System.EventHandler(this.listViewCtpn_SelectedIndexChanged);
             // 
             // columnHeader1
             // 
@@ -154,7 +154,7 @@
             this.btXoa.TabIndex = 2;
             this.btXoa.Text = "Xóa";
             this.btXoa.UseVisualStyleBackColor = true;
-            this.btXoa.Click += new System.EventHandler(this.btXoa_Click);
+           // this.btXoa.Click += new System.EventHandler(this.btXoa_Click);
             // 
             // btSua
             // 
@@ -164,7 +164,7 @@
             this.btSua.TabIndex = 1;
             this.btSua.Text = "Sửa";
             this.btSua.UseVisualStyleBackColor = true;
-            this.btSua.Click += new System.EventHandler(this.btSua_Click);
+            //this.btSua.Click += new System.EventHandler(this.btSua_Click);
             // 
             // btThem
             // 
@@ -174,7 +174,7 @@
             this.btThem.TabIndex = 0;
             this.btThem.Text = "Thêm";
             this.btThem.UseVisualStyleBackColor = true;
-            this.btThem.Click += new System.EventHandler(this.btThem_Click);
+           // this.btThem.Click += new System.EventHandler(this.btThem_Click);
             // 
             // panel4
             // 
@@ -273,7 +273,7 @@
             this.Name = "FormChiTietPhieuNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormChiTietPhieuNhap";
-            this.Load += new System.EventHandler(this.FormChiTietPhieuNhap_Load);
+            //this.Load += new System.EventHandler(this.FormChiTietPhieuNhap_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);

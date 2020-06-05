@@ -4,20 +4,22 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="50128193007f4d1e9894a0c34d9d6689" Name="Diagram1">
-        <EntityTypeShape EntityType="Quan_Ly_KhoModel.Chitietnhap" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="Quan_Ly_KhoModel.Chitietxuat" Width="1.5" PointX="8.25" PointY="3.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="Quan_Ly_KhoModel.HangHoa" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="Quan_Ly_KhoModel.NCC" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="Quan_Ly_KhoModel.PhieuNhap" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Quan_Ly_KhoModel.PhieuXuat" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Quan_Ly_KhoModel.sysdiagram" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="Quan_Ly_KhoModel.TaiKhoan" Width="1.5" PointX="2.75" PointY="7.5" IsExpanded="true" />
-        <AssociationConnector Association="Quan_Ly_KhoModel.FK__Chitietnha__maHH__4222D4EF" ManuallyRouted="false" />
-        <AssociationConnector Association="Quan_Ly_KhoModel.FK__Chitietnha__maPN__4316F928" ManuallyRouted="false" />
-        <AssociationConnector Association="Quan_Ly_KhoModel.FK__Chitietxua__maHH__440B1D61" ManuallyRouted="false" />
-        <AssociationConnector Association="Quan_Ly_KhoModel.FK__Chitietxua__maPX__44FF419A" ManuallyRouted="false" />
-        <AssociationConnector Association="Quan_Ly_KhoModel.FK__HangHoa__maNCC__45F365D3" ManuallyRouted="false" />
+      <Diagram DiagramId="36364788f18c42e9bfa7358a5d18885a" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="Quan_Ly_KhoModel.Chitietnhap" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Quan_Ly_KhoModel.Chitietxuat" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Quan_Ly_KhoModel.HangHoa" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Quan_Ly_KhoModel.NCC" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Quan_Ly_KhoModel.PhieuNhap" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Quan_Ly_KhoModel.PhieuXuat" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Quan_Ly_KhoModel.nhap" Width="1.5" PointX="7.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Quan_Ly_KhoModel.ThongKe" Width="1.5" PointX="7.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Quan_Ly_KhoModel.xuat" Width="1.5" PointX="7.75" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="Quan_Ly_KhoModel.FK__Chitietnha__maHH__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="Quan_Ly_KhoModel.FK__Chitietnha__maPN__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="Quan_Ly_KhoModel.FK__Chitietxua__maHH__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="Quan_Ly_KhoModel.FK__Chitietxua__maPX__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="Quan_Ly_KhoModel.FK__HangHoa__maNCC__46E78A0C" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Quan_Ly_KhoModel.TaiKhoan" Width="1.5" PointX="10.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

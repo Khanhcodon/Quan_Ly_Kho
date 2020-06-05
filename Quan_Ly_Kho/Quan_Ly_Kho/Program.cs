@@ -1,4 +1,5 @@
 ﻿using Quan_Ly_Kho.Controller;
+using Quan_Ly_Kho.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace Quan_Ly_Kho
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormPhieuNhap());
+            Application.Run(new FormDangNhap());
         }
     }
 }
