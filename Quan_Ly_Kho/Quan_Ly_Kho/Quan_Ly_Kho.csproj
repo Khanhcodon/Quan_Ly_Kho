@@ -55,23 +55,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller\FormChiTietPhieuNhap.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Controller\FormChiTietPhieuNhap.Designer.cs">
-      <DependentUpon>FormChiTietPhieuNhap.cs</DependentUpon>
-    </Compile>
     <Compile Include="Controller\FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Controller\FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Controller\FormPhieuNhap.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Controller\FormPhieuNhap.Designer.cs">
-      <DependentUpon>FormPhieuNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Chitietnhap.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -138,14 +126,20 @@
     <Compile Include="View\FormThongKeHH.Designer.cs">
       <DependentUpon>FormThongKeHH.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Controller\FormChiTietPhieuNhap.resx">
+    <Compile Include="View\ManhQuan\FormChiTietPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ManhQuan\FormChiTietPhieuNhap.Designer.cs">
       <DependentUpon>FormChiTietPhieuNhap.cs</DependentUpon>
-    </EmbeddedResource>
+    </Compile>
+    <Compile Include="View\ManhQuan\FormPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ManhQuan\FormPhieuNhap.Designer.cs">
+      <DependentUpon>FormPhieuNhap.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Controller\FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Controller\FormPhieuNhap.resx">
-      <DependentUpon>FormPhieuNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\FormDangKy.resx">
       <DependentUpon>FormDangKy.cs</DependentUpon>
@@ -155,6 +149,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\FormThongKeHH.resx">
       <DependentUpon>FormThongKeHH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ManhQuan\FormChiTietPhieuNhap.resx">
+      <DependentUpon>FormChiTietPhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ManhQuan\FormPhieuNhap.resx">
+      <DependentUpon>FormPhieuNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EntityDeploy Include="Model\Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>

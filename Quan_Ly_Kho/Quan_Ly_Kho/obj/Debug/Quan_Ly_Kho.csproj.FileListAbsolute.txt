@@ -21,10 +21,7 @@ G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.dll
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.SqlServer.dll
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.xml
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.SqlServer.xml
-G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.DangKy.resources
-G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.DangNhap.resources
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.FormPhieuNhap.resources
-G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Properties.Resources.resources
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csproj.GenerateResource.cache
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csproj.CoreCompileInputs.cache
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csproj.CopyComplete
@@ -51,3 +48,9 @@ D:\BTL-k2n3\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Vie
 D:\BTL-k2n3\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormDangKy.resources
 D:\BTL-k2n3\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormThongKeHH.resources
 D:\BTL-k2n3\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.FormMain.resources
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.FormMain.resources
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormDangKy.resources
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormDangNhap.resources
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormThongKeHH.resources
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.ManhQuan.FormChiTietPhieuNhap.resources
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.ManhQuan.FormPhieuNhap.resources
