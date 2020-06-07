@@ -21,14 +21,12 @@ G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.dll
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.SqlServer.dll
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.xml
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.SqlServer.xml
-G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.FormPhieuNhap.resources
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csproj.GenerateResource.cache
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csproj.CoreCompileInputs.cache
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csproj.CopyComplete
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.exe
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.pdb
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csprojAssemblyReference.cache
-G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.FormChiTietPhieuNhap.resources
 D:\BTL-k2n3\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\Quan_Ly_Kho.exe.config
 D:\BTL-k2n3\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\Quan_Ly_Kho.exe
 D:\BTL-k2n3\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\Quan_Ly_Kho.pdb
