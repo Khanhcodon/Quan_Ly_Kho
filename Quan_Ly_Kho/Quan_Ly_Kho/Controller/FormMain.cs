@@ -38,5 +38,13 @@ namespace Quan_Ly_Kho.Controller
             tkhh.ShowDialog();
             this.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FormHangHoa hh = new FormHangHoa();
+            this.Hide();
+            hh.ShowDialog();
+            this.Show();
+        }
     }
 }

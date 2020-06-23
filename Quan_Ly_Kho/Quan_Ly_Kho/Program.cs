@@ -18,7 +18,7 @@ namespace Quan_Ly_Kho
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Controller.FormMain());
+            Application.Run(new FormMain());
         }
     }
 }

@@ -101,7 +101,7 @@
             // 
             this.splitContainer1.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer1.Panel2.BackgroundImage")));
             this.splitContainer1.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.splitContainer1.Size = new System.Drawing.Size(899, 392);
+            this.splitContainer1.Size = new System.Drawing.Size(899, 395);
             this.splitContainer1.SplitterDistance = 298;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -115,6 +115,7 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "Tìm Kiếm";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button2
             // 
@@ -133,7 +134,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 96);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(976, 392);
+            this.panel3.Size = new System.Drawing.Size(976, 395);
             this.panel3.TabIndex = 8;
             // 
             // label2
@@ -151,7 +152,7 @@
             this.panel2.BackColor = System.Drawing.SystemColors.Control;
             this.panel2.Controls.Add(this.label2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 488);
+            this.panel2.Location = new System.Drawing.Point(0, 491);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(976, 60);
             this.panel2.TabIndex = 7;
@@ -182,7 +183,7 @@
             // 
             // FormMain
             // 
-            this.ClientSize = new System.Drawing.Size(976, 548);
+            this.ClientSize = new System.Drawing.Size(976, 551);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

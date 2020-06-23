@@ -52,3 +52,25 @@ G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormDan
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormThongKeHH.resources
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.ManhQuan.FormChiTietPhieuNhap.resources
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.ManhQuan.FormPhieuNhap.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\Quan_Ly_Kho.exe.config
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\Quan_Ly_Kho.exe
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\Quan_Ly_Kho.pdb
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.dll
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.SqlServer.dll
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.xml
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.SqlServer.xml
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csprojAssemblyReference.cache
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.FormMain.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormCTXuat.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormDangKy.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormDangNhap.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormThongKeHH.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormXuat.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.ManhQuan.FormChiTietPhieuNhap.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.ManhQuan.FormPhieuNhap.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csproj.GenerateResource.cache
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csproj.CoreCompileInputs.cache
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csproj.CopyComplete
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.exe
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.pdb
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormHangHoa.resources
