@@ -140,6 +140,14 @@ namespace Quan_Ly_Kho.View
                 this.Show();
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormCTXuat hh = new FormCTXuat();
+            this.Hide();
+            hh.ShowDialog();
+            this.Show();
+        }
     }
 }
 

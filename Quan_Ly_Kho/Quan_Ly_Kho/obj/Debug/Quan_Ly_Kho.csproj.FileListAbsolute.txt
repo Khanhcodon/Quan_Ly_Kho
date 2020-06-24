@@ -6,14 +6,11 @@ C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\E
 C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.xml
 C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\EntityFramework.SqlServer.xml
 C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csprojAssemblyReference.cache
-C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.DangNhap.resources
-C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Properties.Resources.resources
 C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csproj.GenerateResource.cache
 C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csproj.CoreCompileInputs.cache
 C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.csproj.CopyComplete
 C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.exe
 C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.pdb
-C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.DangKy.resources
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\Quan_Ly_Kho.exe.config
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\Quan_Ly_Kho.exe
 G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\bin\Debug\Quan_Ly_Kho.pdb
@@ -74,3 +71,12 @@ E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\
 E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.exe
 E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.pdb
 E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\quanlykho1\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormHangHoa.resources
+C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.Controller.FormMain.resources
+C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormCTXuat.resources
+C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormDangKy.resources
+C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormDangNhap.resources
+C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormHangHoa.resources
+C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormThongKeHH.resources
+C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormXuat.resources
+C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.ManhQuan.FormChiTietPhieuNhap.resources
+C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.ManhQuan.FormPhieuNhap.resources

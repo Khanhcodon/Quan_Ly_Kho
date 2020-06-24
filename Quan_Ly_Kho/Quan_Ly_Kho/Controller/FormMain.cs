@@ -46,5 +46,13 @@ namespace Quan_Ly_Kho.Controller
             hh.ShowDialog();
             this.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormXuat hh = new FormXuat();
+            this.Hide();
+            hh.ShowDialog();
+            this.Show();
+        }
     }
 }

@@ -13,7 +13,7 @@ namespace Quan_Ly_Kho.View
 {
     public partial class FormHangHoa : Form
     {
-        SqlConnection con = new SqlConnection("server = DESKTOP-1HGH8ER\\SQLEXPRESS;database = Quan_Ly_Kho; integrated security = SSPI");
+        SqlConnection con = new SqlConnection("server = ADMIN\\SQLEXPRESS;database = Quan_Ly_Kho; integrated security = SSPI");
 
         public FormHangHoa()
         {

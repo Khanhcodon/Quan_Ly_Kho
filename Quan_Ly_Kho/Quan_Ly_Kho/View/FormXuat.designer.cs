@@ -44,6 +44,7 @@
             this.dateTimeNX = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxTT = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,7 +65,7 @@
             this.label1.Location = new System.Drawing.Point(332, 38);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(165, 39);
+            this.label1.Size = new System.Drawing.Size(133, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Xuat Kho";
             // 
@@ -85,7 +86,7 @@
             this.label3.Location = new System.Drawing.Point(48, 135);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 29);
+            this.label3.Size = new System.Drawing.Size(67, 24);
             this.label3.TabIndex = 1;
             this.label3.Text = "Ma PX";
             // 
@@ -128,7 +129,7 @@
             this.buttonThem.Location = new System.Drawing.Point(461, 215);
             this.buttonThem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonThem.Name = "buttonThem";
-            this.buttonThem.Size = new System.Drawing.Size(286, 43);
+            this.buttonThem.Size = new System.Drawing.Size(141, 43);
             this.buttonThem.TabIndex = 4;
             this.buttonThem.Text = "Them";
             this.buttonThem.UseVisualStyleBackColor = false;
@@ -180,7 +181,7 @@
             this.label2.Location = new System.Drawing.Point(48, 215);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(124, 29);
+            this.label2.Size = new System.Drawing.Size(98, 24);
             this.label2.TabIndex = 1;
             this.label2.Text = "Ngay Xuat";
             // 
@@ -191,7 +192,7 @@
             this.dateTimeNX.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimeNX.Location = new System.Drawing.Point(190, 215);
             this.dateTimeNX.Name = "dateTimeNX";
-            this.dateTimeNX.Size = new System.Drawing.Size(149, 32);
+            this.dateTimeNX.Size = new System.Drawing.Size(149, 27);
             this.dateTimeNX.TabIndex = 5;
             // 
             // label4
@@ -201,7 +202,7 @@
             this.label4.Location = new System.Drawing.Point(456, 135);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(125, 29);
+            this.label4.Size = new System.Drawing.Size(98, 24);
             this.label4.TabIndex = 1;
             this.label4.Text = "Tong Tien";
             // 
@@ -215,12 +216,26 @@
             this.textBoxTT.TabIndex = 2;
             this.textBoxTT.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(668, 215);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(141, 43);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Chi Tiet Xuat";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormXuat
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(872, 828);
+            this.ClientSize = new System.Drawing.Size(872, 749);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimeNX);
             this.Controls.Add(this.buttonCT);
             this.Controls.Add(this.buttonXoa);
@@ -263,5 +278,6 @@
         private System.Windows.Forms.DateTimePicker dateTimeNX;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBoxTT;
+        private System.Windows.Forms.Button button1;
     }
 }
