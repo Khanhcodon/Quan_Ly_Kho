@@ -80,3 +80,6 @@ C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Q
 C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormXuat.resources
 C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.ManhQuan.FormChiTietPhieuNhap.resources
 C:\Thực tập nhóm\TTN Bài 4\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.ManhQuan.FormPhieuNhap.resources
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormCTXuat.resources
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormHangHoa.resources
+G:\TTNhom\Quan_Ly_Kho\Quan_Ly_Kho\Quan_Ly_Kho\obj\Debug\Quan_Ly_Kho.View.FormXuat.resources

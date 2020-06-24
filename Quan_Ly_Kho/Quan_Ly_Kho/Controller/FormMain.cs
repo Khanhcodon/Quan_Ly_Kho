@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Quan_Ly_Kho.View;
+using Quan_Ly_Kho.View.ManhQuan;
 
 namespace Quan_Ly_Kho.Controller
 {
@@ -25,7 +26,7 @@ namespace Quan_Ly_Kho.Controller
 
         private void button1_Click(object sender, EventArgs e)
         {
-            View.ManhQuan.FormPhieuNhap pn = new View.ManhQuan.FormPhieuNhap();
+            FormPhieuNhap pn = new FormPhieuNhap();
             this.Hide();
             pn.ShowDialog();
             this.Show();
